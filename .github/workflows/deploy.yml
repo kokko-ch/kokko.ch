@@ -30,4 +30,5 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           source: "dist/"
           target: "~/public_html/shared/kokko.ch"
+          rm: true
           strip_components: 1
